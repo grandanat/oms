@@ -1,6 +1,20 @@
 #Order Management System
 Hackaton
 
+This application is a skeleton of an Order Management System. It has 2 main components:
+
+Web services
+1)	User must be able to logon before placing any order, first time user needs to register first before he/she can logon
+2)	Logon consists username, password, company
+3)	Once logon successfully, user can query the webservice for a list of tradable products and also return your current list of orders
+4)	You can buy/sell these tradable products if the price match, otherwise it will reject to explain why.
+
+The Client
+1)	HTML Client to interact with the WebService.
+2)	client deployed on the same webserver as web service/ 
+
+Application is build with springboot.
+
 Functionalities
  - Authentication based on username and password
  - User management (register new user)
